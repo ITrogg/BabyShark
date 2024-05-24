@@ -1,0 +1,379 @@
+/* body{margin-left: 10%; 
+  margin-right: 10%;
+    background: rgba(7, 7, 37, 0.377);
+    background: radial-gradient(circle, rgba(7,7,37,1) 0%, rgba(83,132,230,1) 50%, rgba(147,178,213,1) 100%);
+} */
+ 
+
+
+
+/* footer */
+
+    /* footer h3 {
+      margin-bottom: 0px;
+      text-align: center;
+    }
+
+    footer{
+      background: rgb(58,33,92);
+      background: linear-gradient(184deg, rgba(58,33,92,1) 4%, rgba(21,45,119,1) 8%, rgba(76,182,195,1) 20%, rgba(143,214,200,1) 29%, rgba(244,244,244,1) 39%, rgba(244,244,244,1) 41%, rgba(227,220,204,1) 47%);
+      padding: 30px 0px 30px 0px;
+      text-align: center;
+    } */
+    
+
+
+    /* pageproduit */
+
+  /* h2 {text-align: center;
+      color: hwb(200 2% 4% / 0.98);
+      font-family: 'BioRhyme Expanded', serif;
+font-family: 'Michroma', sans-serif;
+       margin-top: 40px;
+       font-size: xx-large;}
+      
+       .section1 {display: flex}
+       .section2 {display: flex}
+       .section3 {display: flex}
+
+ .imgupper {width: 300px;
+  height: 170px;
+  display: column;
+  } 
+
+.logomini {width: 40px;
+          height: 40px;
+          margin-top: -270px;}
+
+.requinblanc {text-align: center;
+  font-family: 'Michroma', sans-serif;
+              color: #ffffff;}
+   
+.requinmarteau {text-align: center;  
+  font-family: 'Michroma', sans-serif;
+              color: #ffffff;}
+            
+.orque {text-align: center;
+  font-family: 'Michroma', sans-serif;
+  color: rgb(255, 255, 255);}
+
+ .baleinebleu {text-align: center;
+  font-family: 'Michroma', sans-serif;
+ color: #ffffff;}
+
+ .dauphin {text-align: center;
+  font-family: 'Michroma', sans-serif;
+  color: #ffffff;}
+
+ .requintigre {text-align: center;
+  font-family: 'Michroma', sans-serif;
+ color: #ffffff;}
+
+ .requinpelerin {text-align: center;
+   font-family: 'Michroma', sans-serif;
+  color: #ffffff;}
+
+ .requintaupe {text-align: center;
+  font-family: 'Michroma', sans-serif;
+ color: #ffffff; }
+
+
+ .pgauche {margin-left: -700px;
+margin-top: -1px;}
+ .pdroite {text-align: right;
+margin-right:365px ;
+margin-top: -40px;}
+
+.priceleft {margin-left: 130px;
+  font-family: 'Michroma', sans-serif;
+margin-top: -10px;}
+
+.priceright {margin-left: 592px;
+             margin-top: -43px;
+             font-family: 'Michroma', sans-serif;}
+
+.pricemarteau {margin-left: 580px;
+               margin-top: -43px;
+               font-family: 'Michroma', sans-serif;}
+
+.ariane {margin-left: 20px;}
+
+.poissonachat {height: 30px;
+                width: 30px;
+              margin-left: 45px;
+            margin-top: -40px;}
+
+.poissonachat2 {height: 30px;
+  width: 30px;
+margin-left:38px;
+margin-top: -38px;}
+           
+.poissonachat3 {height: 30px;
+  width: 30px;
+margin-left: 50px;
+margin-top: -38px;} */
+
+
+            
+            /* page accessoires */
+
+            .colonne1{display: flex;
+              justify-content: center;}
+              
+            .colonne2 {display: flex;
+              justify-content: center;}
+
+            .colonne3 {display: flex;
+              justify-content: center;}
+
+            .colonne4 {display: flex;
+              justify-content: left;
+            margin-left: 150px;}
+              
+
+              
+              
+              
+            .peluchemarteau {width: 300px;
+              height: 280px; }
+                         
+            
+            .pelucherequin {width: 300px;
+              height: 280px;}
+
+            .kitplonge {width: 300px;
+              height: 280px;}
+
+            .aquacuisine {width: 300px;
+              height: 270px;}
+
+
+            .kit {text-align: center;
+              font-family: 'Michroma', sans-serif;
+             color: #06b8f3;
+             /* font-size: x-large; */
+            margin-top: -4px;}
+
+             .pelreq {text-align: center;
+              font-family: 'Michroma', sans-serif;
+             color: #06b8f3;
+             /* font-size: x-large; */
+            margin-top: -4px;}
+            .priceright2 {margin-left: 205px;
+             margin-top: -35px;
+             font-family: 'Michroma', sans-serif;
+          font-size: large;}
+
+           .cuisine {text-align: center;
+            font-family: 'Michroma', sans-serif;
+          color: #06b8f3;
+         margin-top: -2px;}
+         .pricecuisine {margin-left: 180px;
+          margin-top: -15px;
+          font-family: 'Michroma', sans-serif; }
+      
+
+       .marteau {text-align: center;
+        font-family: 'Michroma', sans-serif;
+       color: #06b8f3;
+        margin-top: -3px; }
+       
+        .harpon {text-align: center;
+          font-family: 'Michroma', sans-serif;;
+         color: #06b8f3;
+        margin-left: 310px;}
+
+        .harponname {text-align: center;
+          font-family: 'Michroma', sans-serif;
+         color: #06b8f3;
+        margin-left: 230px;
+      margin-top: -3px;}
+
+        .priceharpon {margin-left: 228px;
+                      margin-top: -19px;
+                      font-family: 'Michroma', sans-serif;   }
+                   
+
+        .aquageant {text-align: center;
+          font-family: 'Michroma', sans-serif;
+         color: #06b8f3;
+        margin-top: -2px;}
+
+        .pricegeant {font-family: 'Michroma', sans-serif; 
+                     margin-left: 180px;
+                    margin-top: -15px;}
+       
+        .pricepelucho {font-family: 'Michroma', sans-serif; 
+          margin-left: 205px;
+         margin-top: -35px;}
+       
+         .kitkit {font-family: 'Michroma', sans-serif; 
+          margin-left: 180px;
+         margin-top: -15px;}
+
+         .claquette2 {text-align: center;
+          font-family: 'Michroma', sans-serif;
+        color: #06b8f3;
+       margin-top: -2px;}
+
+         .priceclaquette {margin-left: 200px;
+          margin-top: -34px;
+          font-family: 'Michroma', sans-serif;}
+
+
+                  
+
+                    
+         /* grand bassin */
+
+         body{
+          background: rgba(7, 7, 37, 0.377);
+          background: radial-gradient(circle, rgba(7,7,37,1) 0%, rgba(83,132,230,1) 50%, rgba(147,178,213,1) 100%);
+      }
+          
+      /* header */
+      
+      *{  
+          font-family: 'Michroma', sans-serif;
+          margin: 0px;
+          padding: 0px;
+      }
+          
+      h1, h2{
+          font-family: 'BioRhyme Expanded', serif;
+      }
+      h1{
+          margin: 50px;
+          color: white;
+          font-size: 3em;
+      }
+      .HeaderUpperSide{
+          background: rgb(14,136,154);
+          background: linear-gradient(10deg, rgba(14,136,154,1) 24%, rgba(8,186,190,1) 49%, rgba(53,190,144,1) 69%, rgba(154,103,4,1) 84%, rgba(199,150,2,1) 100%);
+      }
+      #HeaderRightSide{
+          margin: 20px;
+      }
+      .Search{
+          margin: 10px;
+      }
+      .nav {
+          background: rgb(34,122,92);
+          background: linear-gradient(180deg, rgba(12,156,169,1) 5%, rgba(34,122,92,1) 50%, rgba(12,156,169,1) 95%);
+      }
+      #AllHeader .nav-link{
+          color: black;
+      }
+      #carouselAdvert {
+          text-align: center;
+      }
+      p .carousel-item{
+          height: max-content;
+      }
+      
+      
+      h3{text-align: center;
+      }
+      
+      
+      
+      /* food */
+                          
+      .section1{display: flex;
+          justify-content: center;}
+
+          .requinblanc{width: 350px;
+          height: 200px;
+        margin-right: -100px;}
+          .requinmarteau{width: 350px;
+          height: 200px;
+        margin-right: -100px;}
+          
+        .section2{display: flex;
+          justify-content: center;}
+      
+            .orque {width: 350px;
+              height: 200px;
+              margin-left: -120px;}
+      
+          .baleinebleu {width: 350px;
+            height: 200px;
+            margin-right: -100px;}
+
+
+            .section3{display: flex;
+                    justify-content: center;}
+
+              .dauphin{width: 350px;
+              height: 200px;
+              margin-left: -100px;}
+              .requintigre{width: 350px;
+                height: 200px;
+                margin-right: -100px;}
+
+ 
+          
+      
+          .name9 {text-align: center;
+            font-family: 'Michroma', sans-serif;
+           color: #ffffff;
+          margin-top: -4px;}
+      
+      
+          
+          .priceleft {margin-left: 115px;
+            margin-top: -35px;
+           font-family: monospace;
+         font-size: large;
+         color: #efefef;
+      }
+      
+      
+      
+      .cofood1 {
+          text-align: center;
+          margin: 20px;
+      }
+      
+      .cofood2 {
+          text-align: center;
+          margin: 20px;
+      }
+      
+      .quantity-input {
+          width: 50px;
+          text-align: center;
+          margin-right: 10px;
+      }
+      
+      .add-to-cart-btn {
+          background: linear-gradient(10deg, rgba(14,136,154,1) 24%, rgba(8,186,190,1) 49%, rgba(53,190,144,1) 69%,rgba(8,186,190,1) 49%, rgba(14,136,154,1) 100%); /* Green color for button */
+          color: white;
+          border: none;
+          padding: 8px 16px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 16px;
+          cursor: pointer;
+      }
+      
+      .add-to-cart-btn:hover {
+          background: linear-gradient(10deg, rgb(232, 31, 9)4%, rgb(190, 38, 8)4%, rgba(53,190,144,1) 69%,rgba(8,186,190,1) 49%, rgba(14,136,154,1) 100%); /* Green color for button */ /* Darker green color on hover */
+      }
+      
+      
+      
+      footer h3 {
+          margin-bottom: 0px;
+          text-align: center;
+        }
+      
+        footer{
+          background: rgb(58,33,92);
+          background: linear-gradient(184deg, rgba(58,33,92,1) 4%, rgba(21,45,119,1) 8%, rgba(76,182,195,1) 20%, rgba(143,214,200,1) 29%, rgba(244,244,244,1) 39%, rgba(244,244,244,1) 41%, rgba(227,220,204,1) 47%);
+          padding: 30px 0px 30px 0px;
+          text-align: center;
+        }
+      
+      

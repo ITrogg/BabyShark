@@ -1,0 +1,104 @@
+     /* page accessoires */
+
+     .colonne1{display: flex;
+        justify-content: center;}
+        
+      .colonne2 {display: flex;
+        justify-content: center;}
+
+      .colonne3 {display: flex;
+        justify-content: center;}
+
+      .colonne4 {display: flex;
+        justify-content: left;
+      margin-left: 150px;}
+        
+
+        
+        
+        
+      .peluchemarteau {width: 300px;
+        height: 280px; }
+                   
+      
+      .pelucherequin {width: 300px;
+        height: 280px;}
+
+      .kitplonge {width: 300px;
+        height: 280px;}
+
+      .aquacuisine {width: 300px;
+        height: 270px;}
+
+
+      .kit {text-align: center;
+        font-family: 'Michroma', sans-serif;
+       color: #06b8f3;
+       /* font-size: x-large; */
+      margin-top: -4px;}
+
+       .pelreq {text-align: center;
+        font-family: 'Michroma', sans-serif;
+       color: #06b8f3;
+       /* font-size: x-large; */
+      margin-top: -4px;}
+      .priceright2 {margin-left: 205px;
+       margin-top: -35px;
+       font-family: 'Michroma', sans-serif;
+    font-size: large;}
+
+     .cuisine {text-align: center;
+      font-family: 'Michroma', sans-serif;
+    color: #06b8f3;
+   margin-top: -2px;}
+   .pricecuisine {margin-left: 180px;
+    margin-top: -15px;
+    font-family: 'Michroma', sans-serif; }
+
+
+ .marteau {text-align: center;
+  font-family: 'Michroma', sans-serif;
+ color: #06b8f3;
+  margin-top: -3px; }
+ 
+  .harpon {text-align: center;
+    font-family: 'Michroma', sans-serif;;
+   color: #06b8f3;
+  margin-left: 310px;}
+
+  .harponname {text-align: center;
+    font-family: 'Michroma', sans-serif;
+   color: #06b8f3;
+  margin-left: 230px;
+margin-top: -3px;}
+
+  .priceharpon {margin-left: 228px;
+                margin-top: -19px;
+                font-family: 'Michroma', sans-serif;   }
+             
+
+  .aquageant {text-align: center;
+    font-family: 'Michroma', sans-serif;
+   color: #06b8f3;
+  margin-top: -2px;}
+
+  .pricegeant {font-family: 'Michroma', sans-serif; 
+               margin-left: 180px;
+              margin-top: -15px;}
+ 
+  .pricepelucho {font-family: 'Michroma', sans-serif; 
+    margin-left: 205px;
+   margin-top: -35px;}
+ 
+   .kitkit {font-family: 'Michroma', sans-serif; 
+    margin-left: 180px;
+   margin-top: -15px;}
+
+   .claquette2 {text-align: center;
+    font-family: 'Michroma', sans-serif;
+  color: #06b8f3;
+ margin-top: -2px;}
+
+   .priceclaquette {margin-left: 200px;
+    margin-top: -34px;
+    font-family: 'Michroma', sans-serif;}

@@ -1,0 +1,71 @@
+/* navigation */
+#NavAccount {
+    float: left;    
+    margin: 2%;
+    margin-top:2%;
+    padding: 2%;
+    background-color: rgb(41,92,125,1);
+    width: 15%;
+    position: fixed;
+    border-radius: 10%;
+}
+#NavAccount a {
+    color: white;
+}
+
+h2{
+    margin-top: 50px;
+    margin-left: 10px;
+}
+.form{
+    margin-left: 25%;
+    margin-right: 5%;
+    margin-bottom: 75px;
+    padding-top: 50px;  
+    padding-bottom: 50px;  
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+}
+.tables{
+    margin-left: 25%;
+    margin-right: 5%;
+    margin-bottom: 75px;  
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+}
+
+label{
+    display: block;
+    /* margin-left: 50%; */
+} 
+.boutton{
+    margin-top: 10px;
+}
+
+
+/* tableaux */
+ table{
+    width: 100%;
+    border-collapse: collapse;
+    /* margin-left: 10%; */
+    vertical-align: middle;
+    
+}
+th, td {
+    height: 50px;
+    padding-left: 50px;
+    
+}
+thead{
+    /* background-color: rgba(34,122,92,1); */
+    background-color: rgba(12,156,169,1);
+    color: white;
+    height: 75px;
+    border-radius: 5%;
+}
+table tr:nth-child(even){
+    background-color: rgba(227,220,204,1) ;
+    color: white;
+}  

@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=BioRhyme+Expanded&family=Michroma&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/account.css">
+    <title>My Account - Baby Shark</title>
+</head>
+<body>
+    <header>
+        <div class="container-fluid HeaderUpperSide">
+            <div class="row justify-content-center align-items-end">
+                <div class="col-7">
+                    <div class="row align-items-end">
+                        <div class="col-3">
+                            <a href="./homepage.html"> <img class="mx-auto d-block" width="150px" height="150px" src="img/baby shark (3) sans background.png"></a>
+                        </div>
+                        <div class="col-9 text-center">
+                            <a href="./homepage.html"> <h1>Baby Shark</h1> </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-5">
+                    <div class="row justify-content-left align-items-end">
+                        <div class="col-1"></div>
+                        <div class="col-7">
+                            <form class="Search" action="#">
+                                <input class="" type="text" placeholder="Search">
+                            </form>
+                        </div>
+                        <div class="col-2">
+                            <a href="./cart.html"> <img class="mx-auto d-block" width="65px" height="65px" src="img/aquarium.png"></a>
+                        </div>
+                        <div class="col-2">
+                            <!-- Logo de compte -->
+                            <div class="btn-group dropstart">
+                                <img src="./img/logop1.png" class=" btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" width="65px" height="65px" alt="Logo">
+                                <ul class="dropdown-menu">
+                                    <div class="UnCo">
+                                        <li><a class="dropdown-item" href="./connect1.html">Log In</a></li>
+                                        <li><a class="dropdown-item" href="./subscribe.html">Sign In</a></li>
+                                    </div>
+                                    <div class="Connected">
+                                        <li><a class="dropdown-item" href="./account.html">My account</a></li>
+                                        <li><a class="dropdown-item" href="javascript:deconnexion()">Log Out</a></li>
+                                    </div>
+                                </ul>
+                            </div>                 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="Stickypart">
+                <!-- Navigateur entre catégories -->    
+            <div class="NavBar d-grid mx-auto gap-2 d-md-flex justify-content-center ">
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-lg"> <a href="./grandbassin.html">Swimmers</a></button>
+                        <button type="button" class="btn btn-lg dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+                            <span class="visually-hidden">Toggle Dropdown</span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Little Aquarium</a></li>
+                            <li><a class="dropdown-item" href="./grandbassin.html">Big Pool</a></li>
+                            <li><a class="dropdown-item" href="#">Endangered</a></li>
+                        </ul>
+                    </div>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-lg"> <a href="./activité.html">Activities</a></button>
+                        <button type="button" class="btn btn-lg dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+                        </button>
+                            <span class="visually-hidden">Toggle Dropdown</span>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Swimming</a></li>
+                            <li><a class="dropdown-item" href="#">Fishing</a></li>
+                        </ul>
+                    </div>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-lg"> <a href="./food.html">Sea Food</a></button>
+                        <button type="button" class="btn btn-lg dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+                            <span class="visually-hidden">Toggle Dropdown</span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">For Meat Eaters</a></li>
+                            <li><a class="dropdown-item" href="#">For Fish Eaters</a></li>
+                            <li><a class="dropdown-item" href="#">For Insect Eaters</a></li>
+                        </ul>
+                    </div>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-lg"> <a href="./accessoires.html">Stuff</a></button>
+                        <button type="button" class="btn btn-lg dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+                            <span class="visually-hidden">Toggle Dropdown</span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Merch</a></li>
+                            <li><a class="dropdown-item" href="#">Aquariums</a></li>
+                            <li><a class="dropdown-item" href="#">Pêche</a></li>
+                        </ul>
+                    </div>
+            </div>
+                <!-- Bandeau de publicité -->
+            <div id="carouselAdvert" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner  ">
+                <div class="carousel-item active">
+                    <p class="d-block w-100 text-bg-warning"> Flash : hammerhead sharks 50% off for 20 min only </p>
+                </div>
+                <div class="carousel-item">
+                    <p class="d-block w-100 text-bg-warning"> Don't miss Nemo pack : 7 fishes - 75% off  </p>
+                </div>
+                <div class="carousel-item">
+                    <p class="d-block w-100 text-bg-warning"> Kraken 20% off : Only on Baby Shark</p>
+                </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <nav id="NavAccount">
+            <p>
+                <a href="#Infos">Contact Details</a> <br>
+            </p>
+            <p>
+                <a href="#password"> Password</a>
+            </p>
+            <p>
+                <a href="#current">Current Orders</a> <br>
+            </p>
+            <p>
+                <a href="#orders">Past Orders</a> <br>
+            </p>     
+        </nav>
+        <div id="Infos"></div>
+        <h2>Contact details</h2>
+        <section  class="form">
+            <form onsubmit="return Modif(this)">
+                <label for="Fname"> First name : </label> 
+                <input type="text" name="Fname" id="Fname" value="" >  
+                <label for="Lname"> Last name : </label> 
+                <input type="text" name="Lname" id="Lname" value="" > 
+                <label for="email"> Email : </label> 
+                <input type="email" name="email" id="email" value="">   
+                <label for="address"> Usual address : </label> 
+                <input type="text" name="address" id="address" value=""> 
+                <label for="city"> City: </label> 
+                <input type="text" name="city" id="city" value="" > <br>
+                <div id="password"></div>
+                <button class="boutton" type="submit"> Modify </button>           
+            </form>
+        </section>
+        <h2>Password</h2> 
+        <section class="form">
+            <form onsubmit="return MdP(this)">
+                <label for="old"> Current password :</label>
+                <input type="password" id="old" name="old">
+                <label for="new"> New password : </label>
+                <input type="password" id="new" name="new">
+                <label for="check"> Confirm new password: </label>
+                <input type="password" id="check" name="check"> <br>   
+                <button class="boutton" type="submit"> Change password </button>
+                <div id="current"></div>
+            </form>
+        </section>
+        <h2> Current order status </h2>
+        <section class="tables">
+            <table>
+                <thead>
+                    <tr>
+                        <th> Tracking Number </th>
+                        <th> Price </th>
+                        <th> Status </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td> abc789456123 </td>
+                        <td> 10,000$ </td>
+                        <td> sent </td>
+                    </tr>
+                    <tr>
+                        <td> abc789456124 </td>
+                        <td> 12$ </td>
+                        <td> prepared </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <div id="orders"></div>
+        <h2>Orders history</h2>
+        <section class="tables">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Tracking Number</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>cba26582365</th>
+                        <th>1$</th>
+                    </tr>
+                    <tr>
+                        <th>abc26582365</th>
+                        <th>7823$</th>
+                    </tr>
+                    <tr>
+                        <th>abc1245689</th>
+                        <th>266$</th>
+                    </tr>
+                    <tr>
+                        <th>xyz9874663</th>
+                        <th>6236$</th>
+                    </tr>   
+                </tbody>
+            </table>
+           <br><br><br><br><br><br>
+        </section>
+    </main>
+    <footer>
+        <p class="contact">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telegram" viewBox="0 0 16 16">
+            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.287 5.906c-.778.324-2.334.994-4.666 2.01-.378.15-.577.298-.595.442-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294.26.006.549-.1.868-.32 2.179-1.471 3.304-2.214 3.374-2.23.05-.012.12-.026.166.016.047.041.042.12.037.141-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8.154 8.154 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629.093.06.183.125.27.187.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.426 1.426 0 0 0-.013-.315.337.337 0 0 0-.114-.217.526.526 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09z"/>
+          </svg>
+          Telegram: @xXbabysharkXx
+          <br>
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-at-fill" viewBox="0 0 16 16">
+            <path d="M2 2A2 2 0 0 0 .05 3.555L8 8.414l7.95-4.859A2 2 0 0 0 14 2zm-2 9.8V4.698l5.803 3.546L0 11.801Zm6.761-2.97-6.57 4.026A2 2 0 0 0 2 14h6.256A4.493 4.493 0 0 1 8 12.5a4.49 4.49 0 0 1 1.606-3.446l-.367-.225L8 9.586l-1.239-.757ZM16 9.671V4.697l-5.803 3.546.338.208A4.482 4.482 0 0 1 12.5 8c1.414 0 2.675.652 3.5 1.671"/>
+            <path d="M15.834 12.244c0 1.168-.577 2.025-1.587 2.025-.503 0-1.002-.228-1.12-.648h-.043c-.118.416-.543.643-1.015.643-.77 0-1.259-.542-1.259-1.434v-.529c0-.844.481-1.4 1.26-1.4.585 0 .87.333.953.63h.03v-.568h.905v2.19c0 .272.18.42.411.42.315 0 .639-.415.639-1.39v-.118c0-1.277-.95-2.326-2.484-2.326h-.04c-1.582 0-2.64 1.067-2.64 2.724v.157c0 1.867 1.237 2.654 2.57 2.654h.045c.507 0 .935-.07 1.18-.18v.731c-.219.1-.643.175-1.237.175h-.044C10.438 16 9 14.82 9 12.646v-.214C9 10.36 10.421 9 12.485 9h.035c2.12 0 3.314 1.43 3.314 3.034zm-4.04.21v.227c0 .586.227.8.581.8.31 0 .564-.17.564-.743v-.367c0-.516-.275-.708-.572-.708-.346 0-.573.245-.573.791Z"/>
+          </svg>
+          xXbabysharkXx@riseup.net
+        </p>
+        <p class="copyright">copyright &#9400; Baby-Shark-2023. All rights reserved.</p>
+    </footer>
+        <script src="./JS/account.js"></script>
+      <script src="./JS/main.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    </body>
+  </html>

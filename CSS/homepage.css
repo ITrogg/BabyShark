@@ -1,0 +1,22 @@
+
+
+.card-group{margin-left: 10%; 
+margin-right: 10%;
+}
+
+.card:hover{
+    background: linear-gradient(10deg, rgba(14,136,154,1) 24%, rgba(8,186,190,1) 49%, rgba(53,190,144,1) 69%,rgba(8,186,190,1) 49%, rgba(14,136,154,1) 100%);
+    
+}
+
+h3{text-align: center;
+}
+
+/* images */
+
+.card-img-top{
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* width: 24.99999%; */
+
+}

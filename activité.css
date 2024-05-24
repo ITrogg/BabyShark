@@ -1,0 +1,96 @@
+
+body{
+    background: rgba(7, 7, 37, 0.377);
+    background: radial-gradient(circle, rgba(7,7,37,1) 0%, rgba(83,132,230,1) 50%, rgba(147,178,213,1) 100%);
+}
+
+.premier{
+    color: aqua;
+
+}
+
+
+
+/* header */
+
+*{  
+    font-family: 'Michroma', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+    
+h1, h2{
+    font-family: 'BioRhyme Expanded', serif;
+    text-align: center;
+    color: floralwhite;
+}
+h1{
+    margin: 50px;
+    color: white;
+    font-size: 3em;
+}
+.HeaderUpperSide{
+    background: rgb(14,136,154);
+    background: linear-gradient(10deg, rgba(14,136,154,1) 24%, rgba(8,186,190,1) 49%, rgba(53,190,144,1) 69%, rgba(154,103,4,1) 84%, rgba(199,150,2,1) 100%);
+}
+#HeaderRightSide{
+    margin: 20px;
+}
+.Search{
+    margin: 10px;
+}
+.nav {
+    background: rgb(34,122,92);
+    background: linear-gradient(180deg, rgba(12,156,169,1) 5%, rgba(34,122,92,1) 50%, rgba(12,156,169,1) 95%);
+}
+#AllHeader .nav-link{
+    color: black;
+}
+#carouselAdvert {
+    text-align: center;
+}
+p .carousel-item{
+    height: max-content;
+}
+
+
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(auto-fill, mimax(230px, 1fr));
+    margin-top: 10px;
+}
+
+.zola{
+    width: 500px;
+}
+
+.card{
+    width: 400;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+
+
+footer h3 {
+    margin-bottom: 0px;
+    text-align: center;
+  }
+
+  footer{
+    background: rgb(58,33,92);
+    background: linear-gradient(184deg, rgba(58,33,92,1) 4%, rgba(21,45,119,1) 8%, rgba(76,182,195,1) 20%, rgba(143,214,200,1) 29%, rgba(244,244,244,1) 39%, rgba(244,244,244,1) 41%, rgba(227,220,204,1) 47%);
+    padding: 30px 0px 30px 0px;
+    text-align: center;
+  }

@@ -1,0 +1,32 @@
+p{
+    text-align: center;
+}
+section{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+h2{
+    margin-top: 50px;
+}
+.form{
+    width: 200px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.input{
+    width: 200px;
+    height: 30px;
+    background-color: rgb(223, 247, 247);
+    border-radius: 5%;
+    border: solid 1px rgb(0, 0, 10);
+    box-shadow: 10px 5px 5px #aaaaaa;
+}
+.button{
+    border-radius: 10%;
+}
+.Tony {
+    height: 350px;
+}

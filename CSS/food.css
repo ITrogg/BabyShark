@@ -1,0 +1,74 @@
+
+h3{text-align: center;
+}
+
+
+
+/* food */
+                    
+.cofood1{display: flex;
+    justify-content: center;}
+    
+  .cofood2{display: flex;
+    justify-content: center;}
+
+      .food2 {width: 200px;
+        height: 180px;}
+
+    .superfood {width: 200px;
+      height: 180px;}
+
+      .food3 {width: 200px;
+        height: 180px;}
+
+        .food4 {width: 200px;
+          height: 180px;}
+
+    .food {text-align: center;
+      font-family: 'Michroma', sans-serif;
+     color: #000000;
+    margin-top: -4px;}
+
+
+    
+    .price {margin-left: 215px;
+      margin-top: -35px;
+     font-family: monospace;
+   font-size: large;
+   color: #000000;
+}
+
+
+
+.cofood1 {
+    text-align: center;
+    margin: 20px;
+}
+
+.cofood2 {
+    text-align: center;
+    margin: 20px;
+}
+
+.quantity-input {
+    width: 50px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.add-to-cart-btn {
+    background: linear-gradient(10deg, rgba(14,136,154,1) 24%, rgba(8,186,190,1) 49%, rgba(53,190,144,1) 69%,rgba(8,186,190,1) 49%, rgba(14,136,154,1) 100%); /* Green color for button */
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.add-to-cart-btn:hover {
+    background: linear-gradient(10deg, rgb(232, 31, 9)4%, rgb(190, 38, 8)4%, rgba(53,190,144,1) 69%,rgba(8,186,190,1) 49%, rgba(14,136,154,1) 100%); /* Green color for button */ /* Darker green color on hover */
+}
+
